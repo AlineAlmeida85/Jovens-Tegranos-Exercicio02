@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>EXERCÍCIO 02</title>
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="page-header">Leitura de Medidas - EXERCÍCIO 02</h1>
+            <p>Fazer um programa para ler as medidas da base e altura de um retângulo. Em seguida, mostrar o valor da área, perímetro e diagonal deste retângulo, com quatro casas decimais, conforme exemplo.</p>
+        </div>
+    </div>
+    <div class="container formulario">
+        <form>
+            <div class="form-group">
+                <div class="input-group input-group-md">
+                    <span class="input-group-addon">Base do retângulo:</span>
+                    <input id="inputBase" type="number" class="form-control" aria-describedby="sizing-addon1">
+                </div>
+                <small class="form-text text-muted">Digite somente numeros</small>
+            </div>
+            <div class="form-group">
+                <div class="input-group input-group-md">
+                    <span class="input-group-addon">Altura do retângulo:</span>
+                    <input id="inputAltura" type="number" class="form-control" aria-describedby="sizing-addon1">
+                </div>
+                <small class="form-text text-muted">Digite somente numeros</small>
+            </div>            
+            <button type="button" class="btn btn-info" onclick="verificar()">Verificar</button>
+        </form>
+    </div>
+    <br>
+    <div class="container formulario" id="form2">
+        <form>
+            <h3>Valores Recebidos</h3>
+            <div class="form-group">
+                <div class="input-group input-group-md">
+                    <span class="input-group-addon">Base: </span>                
+                    <p class="form-control" id="valorBase"></p>
+                    <span class="input-group-addon"></span>
+                </div>            
+            </div>
+            <div class="form-group">
+                <div class="input-group input-group-md">
+                    <span class="input-group-addon">Altura</span>                
+                    <p class="form-control" id="valorAltura"></p>
+                    <span class="input-group-addon"></span>
+                </div>            
+            </div>
+           
+            <h3>Resultado</h3>
+            <div class="form-group">
+                <div class="input-group input-group-md">
+                    <span class="input-group-addon">Área:</span>                
+                    <p class="form-control" id="valorArea"></p>
+                    <span class="input-group-addon"></span>                    
+                </div>            
+            </div>
+            <div class="form-group">
+                <div class="input-group input-group-md">
+                    <span class="input-group-addon">Perímetro:</span>                
+                    <p class="form-control" id="valorPerimetro"></p>
+                    <span class="input-group-addon"></span>
+                </div>            
+            </div>
+        <div class="form-group">
+            <div class="input-group input-group-md">
+                <span class="input-group-addon">Diagonal:</span>                
+                <p class="form-control" id="valorDiagonal"></p> 
+                <span class="input-group-addon"></span>               
+            </div>            
+        </div> 
+    </form>      
+    </div>
+    <div class="jumbotron">
+        <div class="container">
+            <p>Espero que  tenha gostado! Feito por Aline Almeida ❤️</p>             
+        </div>
+    </div>
+    <script src="./script.js"></script>    
+    
+</body>
+</html>
