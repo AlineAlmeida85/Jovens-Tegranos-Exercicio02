@@ -1,4 +1,4 @@
-# Jovens Tegranos Exercicio 02
+# Jovens Tegranos Exercício 02
 
 # 🏁 **Tópicos**
 
